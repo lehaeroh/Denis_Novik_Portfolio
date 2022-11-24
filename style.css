@@ -1,0 +1,255 @@
+@font-face {
+  font-family: Gilroy; /* Имя шрифта */
+  src: url(./assets/fonts/Gilroy-Light.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: GilroyBOLD; /* Имя шрифта */
+  src: url(./assets/fonts/Gilroy-ExtraBold.otf); /* Путь к файлу со шрифтом */
+}
+
+body {
+  font-family: "Gilroy";
+  font-size: 18px;
+  line-height: 22px;
+}
+
+h3 {
+  margin: 0;
+}
+
+
+/*Container*/
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/*Header*/
+.header {
+  background-color: #ffffff;
+}
+
+/*Nav*/
+.nav {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+}
+
+.nav_link {
+  padding-top: 33px;
+  font-family: "GilroyBOLD";
+  font-size: 18px;
+  color: #828282;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+.nav_link:hover {
+  color: #000000;
+}
+
+/*Denis*/
+.info_title {
+  display: block;
+  width: 124px;
+  height: 118px;
+  line-height: 59px;
+  font-family: "GilroyBOLD";
+  font-size: 47px;
+  color: #000000;
+}
+
+.info_text {
+  display: block;
+  width: 155px;
+  height: 44px;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  margin: 100px 0 0;
+}
+
+.info_language_buttons {
+  display: block;
+  width: 90px;
+  height: 20px;
+  transform: rotate(-90deg);
+  transform-origin: 90%;
+  margin-top: 45px;
+}
+
+.denis_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang {
+  font-family: "GilroyBOLD";
+  font-size: 16px;
+  color: #828282;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: color 0.1s;
+}
+
+.lang:hover {
+  color: #000000;
+}
+
+.images {
+  width: 940px;
+  margin-bottom: 104px;
+}
+
+/*About me*/
+.title_about {
+  padding-top: 120px;
+}
+
+/*Chapters*/
+.about_me {
+  width: 100%;
+  height: 505px;
+  background-color: #f6f6f6;
+}
+
+.skills {
+
+  height: 610px;
+  background-color: #ffffff;
+}
+
+.portfolio {
+
+  height: 2253px;
+  background-color: #f6f6f6;
+}
+
+.contacts {
+
+  height: 622px;
+  background-color: #ffffff;
+}
+
+/*Titles*/
+.title {
+  font-size: 34px;
+  font-family: "GilroyBOLD";
+  text-align: center;
+  color: #000000;
+}
+
+/*Paragraph*/
+p {
+  text-align: center;
+  line-height: 22px;
+}
+.about_me_info {
+  width: 485.35px;
+  height: 218px;
+  margin: 18px auto;
+}
+
+.skills_info {
+  display: block;
+  width: 228px;
+  height: 24px;
+  margin: 70px auto 0;
+}
+
+.contacts_info {
+  width: 275px;
+  height: 44px;
+  margin: 20px auto 0;
+}
+
+/*Skills*/
+.title_skills {
+  padding-top: 91px;
+}
+
+.skills_info {
+  margin-top: 89px;
+}
+.programms_items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 83px;
+}
+.conteiner_programs {
+  width: 166px;
+  height: 206px;
+  float: left;
+  text-align: center;
+}
+
+/*Portfolio*/
+.title_portfolio {
+  padding-top: 113px;
+}
+
+.site_link {
+  display: block;
+  text-align: center;
+  color: #000000;
+  line-height: 22px;
+}
+
+.site_pict1 {
+  margin: 47px auto 45px;
+}
+
+.site_pict2 {
+  margin: 99px auto 45px;
+}
+.site_pict3 {
+  margin: 99px auto 46px;
+}
+
+/*Contacts*/
+
+.title_contacts {
+  padding-top: 114px;
+}
+.button {
+  display: block;
+  width: 181px;
+  height: 42px;
+  background-color: #000000;
+  font-family: "GilroyBOLD";
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0;
+  margin: 30px auto 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgba(255, 255, 255, 0.1), 0 3px 6px rgb(0 0 0 / 30%);
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.social_icons a {
+  margin: 0 40px;
+}
+
+.phrase_end {
+  font-size: 14px;
+  color: #828282;
+  line-height: 17px;
+  width: 243px;
+  height: 34px;
+  margin: 46px auto 0;
+}
