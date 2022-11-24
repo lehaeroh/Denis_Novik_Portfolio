@@ -1,1 +1,1 @@
-https://lehaeroh.github.io/Denis_Novik_Portfolio/
+https://lehaeroh.github.io/denis_novik_portfolio.github.io/
